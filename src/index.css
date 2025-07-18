@@ -1,1 +1,29 @@
 @import "tailwindcss";
+#appdiv{
+    background-image: url('../public//hero_banner.jpg');
+    color: wheat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#anotherdiv::-webkit-scrollbar{
+      display: none;
+}
+
+#mydiv{
+    background-image: url('./assets//background_banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#formdiv{
+    background: rgb(0, 0,0,0.75);
+}
+
