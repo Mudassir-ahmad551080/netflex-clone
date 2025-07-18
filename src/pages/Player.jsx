@@ -42,7 +42,7 @@ const Player = () => {
       {/* Back Button */}
       <div className="w-full max-w-4xl mb-4">
         <button className="flex items-center gap-2  text-gray-700 cursor-pointer hover:text-black transition">
-          <img onClick={() => navgate(-2)} src={back_arrow_icon} alt="Back" className="w-10 h-10 text-black h-5" />
+          <img onClick={() => navgate('/')} src={back_arrow_icon} alt="Back" className="w-10 h-10 text-black h-5" />
           <span className="text-sm md:text-base font-medium"></span>
         </button>
       </div>
